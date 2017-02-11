@@ -1,0 +1,6 @@
+/rpvt/.Rhistory
+*.csv
+/rpvt/.Rproj.user/
+*.swap
+*.swp
+
