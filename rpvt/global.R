@@ -8,6 +8,8 @@ library(rpivotTable)
 library(shiny)
 library(ggvis)
 library(dplyr)
+library(tidyr)
+library(stringr)
 library(shinydashboard)
 
 # inital setup preprocess all CSV's to test how much data can handle
