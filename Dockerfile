@@ -22,7 +22,7 @@ RUN R -e "install.packages(c('dplyr' ,'shinydashboard' ,'shiny','rpivotTable','g
 
 # copy the app to the image
 RUN mkdir /root/rpvt
-COPY kml /root/rpvt
+COPY rpvt /root/rpvt
 
 COPY Rprofile.site /usr/lib/R/etc/
 
